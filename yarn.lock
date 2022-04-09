@@ -80,6 +80,11 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@material-design-icons/svg@^0.10.8":
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@material-design-icons/svg/-/svg-0.10.8.tgz#705b81959c4c753a4e16a446e5d835b604f02dff"
+  integrity sha512-O666hetvjBx+JVcRksr9kphdA+MaQGUEkDiVufFl4s85OOMsAS7Otxh5cQ8AVqOHwkagU6c6EKGQGtydxVqJpw==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -472,6 +477,11 @@ binary-extensions@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
+
+bootstrap-icons@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/bootstrap-icons/-/bootstrap-icons-1.8.1.tgz#773c1625bcbf3e86090ea9da4386c2c6459c5582"
+  integrity sha512-IXUqislddPJfwq6H+2nTkHyr9epO9h6u1AG0OZCx616w+TgzeoCjfmI3qJMQqt1J586gN2IxzB4M99Ip4sTZ1w==
 
 bootstrap@^5.1.3:
   version "5.1.3"
@@ -1243,6 +1253,11 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
+line-awesome@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/line-awesome/-/line-awesome-1.3.0.tgz#51d59fe311ed040d22d8e80d3aa0b9a4b57e6cd3"
+  integrity sha512-Y0YHksL37ixDsHz+ihCwOtF5jwJgCDxQ3q+zOVgaSW8VugHGTsZZXMacPYZB1/JULBi6BAuTCTek+4ZY/UIwcw==
+
 lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
@@ -1903,16 +1918,28 @@ vue-tsc@^0.29.8:
     "@volar/shared" "0.29.8"
     vscode-vue-languageservice "0.29.8"
 
-vue-usebootstrap@^0.0.42:
-  version "0.0.42"
-  resolved "https://registry.yarnpkg.com/vue-usebootstrap/-/vue-usebootstrap-0.0.42.tgz#dbd24ba1305689889384b05f52c6a791d741db5c"
-  integrity sha512-9yWy4zVyPSLjEZ75Dm4jF2Ow/KN8nKaqkkGfCRGD7QHAIxdk8lwrlfO+O387tw96sxyUcGJ6VCSrIBuir0+RQA==
+vue-usebootstrap@^0.0.53:
+  version "0.0.53"
+  resolved "https://registry.yarnpkg.com/vue-usebootstrap/-/vue-usebootstrap-0.0.53.tgz#5e50c09b289f0f132c07fa3019af0beccb629a55"
+  integrity sha512-AF5845O6NIZ+GwFEhF1YrVKT9qloPJ/vcsYMRmUjxx7IcIgAlINf5NYfPfdIZLpvxGVOLIrj6+rJ7fsv2rG4qQ==
   dependencies:
     "@floating-ui/dom" "^0.4.2"
     "@vueuse/core" "^8.2.0"
     bootstrap "^5.1.3"
+    bootstrap-icons "^1.8.1"
     lodash "^4.17.21"
     vue "^3.2.31"
+    vue-useicon "^0.0.4"
+
+vue-useicon@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/vue-useicon/-/vue-useicon-0.0.4.tgz#5fc9a0142c2854f834159cb82bef0dc66090e88d"
+  integrity sha512-0g8SGODifSl//Gdd0UN4h4vKBxzfsX81Gyuwj2Mj9tlQ9LA0OWO2I1txvNLDomb1EM2EUe9NgzOwo68j8akOFg==
+  dependencies:
+    "@material-design-icons/svg" "^0.10.8"
+    bootstrap-icons "^1.8.1"
+    line-awesome "^1.3.0"
+    vue "^3.2.25"
 
 vue@^3.2.25, vue@^3.2.31:
   version "3.2.31"
